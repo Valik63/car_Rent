@@ -1,0 +1,96 @@
+.banner-w3ls3{
+    background: url(../images/banner22.jpg);
+    background-size: cover;
+    min-height:800px;
+    position: relative;
+    top:170px;
+}
+
+.wrapper{
+  height: 300px;
+  width: 220px;
+  transform-style: preserve-3d;
+  float: left;
+  margin: 15px;
+  text-align: center;
+  position: relative;
+    top: 295px;
+    left: 500px;
+  font-family: American Typewriter, serif;
+}
+.wrapper .card{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  background: #fff;
+  border-radius: 10px;
+  transform: translateY(0deg);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  transition: transform 0.7s cubic-bezier(0.4,0.2,0.2,1);
+}
+.wrapper:hover > .front-face{
+  transform: rotateY(-180deg);
+
+}
+.wrapper .card img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+.wrapper .back-face{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  transform: rotateY(180deg);
+  
+}
+.wrapper:hover > .back-face{
+  transform: rotateY(0deg);
+}
+.wrapper .back-face img{
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 50%;
+}
+.wrapper .back-face .inf{
+  text-align: center;
+}
+.back-face .inf .tit{
+  font-size: 30px;
+  font-weight: 500;
+}
+.back-face ul{
+  display: flex;
+
+}
+
+.back-face ul a{
+  display: block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  margin: 0 5px;
+  line-height: 38px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  font-family: American Typewriter, serif;
+}
+
+.zagolovok{
+  color:#ffffff;
+ 
+  position: absolute;  
+left: 880px;
+  top: 35px; 
+
+ font-family: American Typewriter, serif;
+}
+

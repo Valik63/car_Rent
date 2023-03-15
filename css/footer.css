@@ -1,0 +1,216 @@
+footer {
+    background-color: #000000;
+    display: block;
+    height: 250px;
+    left: 0;
+    position: relative;
+    width: 100%;
+    top:355px;
+}
+
+.text10 {
+    text-align: center;
+    margin-top: 208px;
+    left:820px;
+    color: rgb(255, 255, 255);
+    position:absolute;
+
+}
+
+
+.rect1 {
+    width: 350px;
+    height: 120px;
+    background: #ffffff4b;
+    position: absolute;
+    top: 18%;
+    left: 41%;
+}
+
+
+.rect2 {
+    width: 350px;
+    height: 120px;
+    background: #ffffff4b;
+    position: absolute;
+    top: 18%;
+    left: 8%;
+    
+}
+
+
+.rect3 {
+    width: 550px;
+    height: 120px;
+    background: #ffffff4b;
+    position: absolute;
+    top: 18%;
+    right: 3%;
+    
+}
+
+
+.button1 {
+    background-color:#000000;
+    font-size: 15px;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    position:absolute;
+    padding: 25px 60px;
+    left: 180px;
+    top: 65px;
+}
+ 
+.button1:active {
+    top:68px;
+}
+
+
+
+.button2 {
+    background-color:#000000;
+    font-size: 15px;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    position:absolute;
+    padding: 25px 60px;
+    left: 870px;
+    top: 65px;
+}
+ 
+.button2:active {
+    top:68px;
+}
+
+
+
+.button3 {
+    background-color:#000000;
+    font-size: 15px;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    position:absolute;
+    padding: 25px 30px;
+    right: 380px;
+    top: 65px;
+}
+ 
+.button3:active {
+    top: 68px;
+}
+
+.button4 {
+    background-color:#000000;
+    font-size: 15px;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    position:absolute;
+    padding: 25px 30px;
+    right: 100px;
+    top: 65px;
+}
+ 
+.button4:active {
+    top: 68px;
+}
+
+
+.text11 {
+
+    color:rgb(255, 255, 255);
+    position:absolute;
+    top: 125px;
+    left: 255px;
+
+}
+
+.text12 {
+
+    color:rgb(255, 255, 255);
+    position:absolute;
+    top: 125px;
+    left: 885px;
+
+}
+
+.text13 {
+
+    color:rgb(255, 255, 255);
+    position:absolute;
+    top: 125px;
+    right: 250px;
+
+}
+
+
+
+footer .wave {
+
+    position: absolute;
+    top: -70px;
+    height: 100px;
+    width: 100%;
+    background: url(../images/wave.png);
+    background-size: 1000px 100px;
+}
+
+
+footer .wave#wave1 {
+
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+}
+
+
+footer .wave#wave2 {
+
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 4s linear infinite;
+}
+
+
+footer .wave#wave3 {
+
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 3s linear infinite;
+}
+
+
+footer .wave#wave4 {
+
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave_02 3s linear infinite;
+}
+
+@keyframes animateWave {
+
+    0%
+    {
+        background-position-x: 1000px;
+    }
+    100%
+    {
+        background-position-x: 0px;
+    }
+}
+
+
+@keyframes animateWave_02 {
+
+    0%
+    {
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+}

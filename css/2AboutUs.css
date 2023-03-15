@@ -1,0 +1,21 @@
+.banner-w3ls2{
+    background: url(../images/ab.jpg);
+    background-size: cover;
+    min-height:800px;
+    top: 50px;
+    position: relative;
+}
+.zagolovok{
+    color:#fff;
+  text-align: center;
+  font-family: American Typewriter, serif;
+}
+.text{
+  color:#fff;
+  position:absolute;
+  top:200px;
+	left:270px;
+  margin: 8px;
+  line-height:25px;
+  font-family: American Typewriter, serif;
+}

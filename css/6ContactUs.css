@@ -1,0 +1,28 @@
+.backgr{
+    background: url(../images/ab.jpg);  
+  top:215px;
+   background-size: cover;
+    min-height:800px;
+    position: relative;
+}
+
+.zagolovok4{
+  position:relative;
+  color:#ffffff;
+  text-align: center;
+  top: 75px;
+  font-family: American Typewriter, serif;
+}
+.map{
+  position: relative;  
+  top: 150px
+}
+
+.contacts{
+  left: 700px;
+  top:650px;
+  position:relative;
+display: inline-block;
+  text-align:center;
+}
+
